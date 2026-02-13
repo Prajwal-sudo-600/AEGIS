@@ -126,12 +126,12 @@ export default function CreatePostPage() {
                         </div>
 
                         {/* Content Area */}
-                        <div className="mb-6 relative group space-y-4">
+                        <div className="mb-6 relative group space-y-4 outline-none ">
                             <textarea
                                 value={content}
                                 onChange={(e) => setContent(e.target.value)}
                                 placeholder="Share your academic progress, research findings, or security insights..."
-                                className={`w-full h-32 bg-transparent border-none resize-none focus:ring-0 text-lg leading-relaxed placeholder:text-gray-500 ${isDark ? 'text-white' : 'text-black'
+                                className={`focus:outline-none focus:ring-0 w-full h-32 bg-transparent border-none resize-none focus:ring-0 text-lg leading-relaxed placeholder:text-gray-500 ${isDark ? 'text-white' : 'text-black'
                                     }`}
                                 autoFocus
                             />
