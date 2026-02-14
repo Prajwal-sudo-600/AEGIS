@@ -12,7 +12,8 @@ const AdminSlidingNavbar: React.FC<AdminSlidingNavbarProps> = ({ isDark }) => {
     const pathname = usePathname();
     const tabs = [
         { id: '/admin/dashboard', label: 'Dashboard' },
-        // Add more admin tabs here later
+        { id: '/admin/manage-roadmaps', label: 'Roadmaps' },
+
     ];
 
     const [isVisible, setIsVisible] = useState(true);

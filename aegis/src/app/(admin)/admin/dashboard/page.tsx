@@ -123,7 +123,7 @@ export default function AdminDashboard() {
 
     const QUICK_ACTIONS = [
         { title: 'Create Quiz', icon: Plus, path: '/admin/quiz/create', color: 'bg-indigo-500' },
-        { title: 'Manage Roadmaps', icon: Map, path: '/admin/roadmaps', color: 'bg-emerald-500' },
+        { title: 'Manage Roadmaps', icon: Map, path: '/admin/manage-roadmaps', color: 'bg-emerald-500' },
         { title: 'Ban Rules', icon: ShieldAlert, path: '/admin/bans', color: 'bg-red-500' },
         { title: 'Add Event', icon: Calendar, path: '/admin/events', color: 'bg-blue-500' },
     ];
