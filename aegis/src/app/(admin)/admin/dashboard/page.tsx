@@ -146,10 +146,6 @@ export default function AdminDashboard() {
                         Overview of platform activity and management tools.
                     </p>
                 </div>
-                <button className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-all ${isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-black/5 hover:bg-black/10'}`}>
-                    <Settings className="w-4 h-4" />
-                    Settings
-                </button>
             </div>
 
             {loading ? (
